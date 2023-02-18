@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registering Form</title>
+    <link rel="stylesheet" href="/src/styles/index.css">
+    <link rel="shortcut icon" href="./src/images/logojs.png" type="image/x-icon">
+    <script src="/src/scripts/index.js" defer></script>
+</head>
+<body>
+    <section>
+        <h1>Welcome! Register on the forms below.</h1>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" autofocus>
+            <span id="name-error"></span>
+            <label for="email">Email:</label>
+            <input type="text" name="email" id="email">
+            <span id="email-error"></span>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" aria-labelledby="password">
+            <div class="strength-meter"></div>
+            <span id="password-error"></span>
+            <button type="submit">Register</button>
+        </form>
+    </section>
+    <div id="info">
+      <p id="my-text">Feito por daviebatista</p>
+      <div id="links">
+        <a href="https://github.com/daviebatista" target="_blank" class=" padding-short ">
+          <img src="./src/images/git.png" alt="Git Logo">
+        </a>
+        <a href="https://www.linkedin.com/in/davi-deosmar-batista-oliveira-miranda/" target="_blank" class=" padding-short ">
+          <img src="./src/images/lnkdn.png" alt="linkedin logo">
+        </a>
+      </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,26 @@
+{
+  "name": "email_and_password_validation",
+  "version": "1.1.1",
+  "description": "project made out of js verifications to test regex parameters",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daviebatista/register-validation.git"
+  },
+  "keywords": [
+    "js",
+    "validation",
+    "forms",
+    "regex",
+    "basic"
+  ],
+  "author": "daviebatista",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daviebatista/register-validation/issues"
+  },
+  "homepage": "https://github.com/daviebatista/register-validation#readme"
+}
